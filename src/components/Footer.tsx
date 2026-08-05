@@ -20,7 +20,7 @@ export const Footer: React.FC<FooterProps> = ({ courses, onSelectCourse }) => {
     { label: '#2 Digital Literacy (Usia 7 tahun)', id: 'digital-literacy' },
     { label: '#3 Visual Programing (Usia 8-11 tahun)', id: 'visual-programming' },
     { label: '#4 Game Design (Roblox) (Usia 10-14 tahun)', id: 'game-design-roblox' },
-    { label: '#5 AI (Usia 12-15 tahun)', id: 'artificial-intelligence' },
+    { label: '#5 Artificial Intelligence (AI) (Usia 12-15 tahun)', id: 'artificial-intelligence' },
     { label: '#6 Python Start (Usia 12-15 tahun)', id: 'python-start' },
     { label: '#7 Python Pro (Usia 16-17 tahun)', id: 'python-pro' },
     { label: '#8 Front End (Usia 16-17 tahun)', id: 'python-pro' },
@@ -29,15 +29,15 @@ export const Footer: React.FC<FooterProps> = ({ courses, onSelectCourse }) => {
   const desainList = [
     { label: '#1 Coding Knight (Usia 5-6 tahun)', id: 'coding-knight' },
     { label: '#2 Digital Literacy (Usia 7 tahun)', id: 'digital-literacy' },
-    { label: '#3 Design Junior (Usia 8-11 tahun)', id: 'graphic-design' },
-    { label: '#4 Design Senior (Usia 12-15 tahun)', id: 'graphic-design' },
-    { label: '#5 AI (Usia 12-15 tahun)', id: 'artificial-intelligence' },
+    { label: '#3 Design Junior (Usia 9-11 tahun)', id: 'graphic-design' },
+    { label: '#4 Design Senior (Usia 12-14 tahun)', id: 'graphic-design' },
+    { label: '#5 Artificial Intelligence (AI) (Usia 12-15 tahun)', id: 'artificial-intelligence' },
   ];
 
   const matematikaList = [
     { label: '#1 Math Explore (Usia 6-8 tahun)', id: 'math-explorer' },
     { label: '#2 Math Master (Usia 9-13 tahun)', id: 'math-master' },
-    { label: '#3 Math Tutoring (Usia 5-16 tahun)', id: 'math-tutoring' },
+    { label: '#3 Math Tutoring (Usia 5-17 tahun)', id: 'math-tutoring' },
   ];
 
   return (
@@ -110,9 +110,9 @@ export const Footer: React.FC<FooterProps> = ({ courses, onSelectCourse }) => {
         <div className="pt-6 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-3 text-slate-500">
           <p>© {new Date().getFullYear()} Algonova. All Rights Reserved.</p>
           <p className="flex items-center gap-1">
-            <span>Didesain oleh tim Onboarding untuk pelatihan para kandidat</span>
+            <span>Didesain oleh tim Onboarding untuk pelatihan para kandidat JUARA</span>
             <Trophy className="w-3.5 h-3.5 text-rose-500 fill-rose-500" />
-            <span>juara</span>
+            <span>by Dhika Linardi</span>
           </p>
         </div>
 
