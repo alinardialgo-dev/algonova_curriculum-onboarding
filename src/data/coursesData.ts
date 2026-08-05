@@ -1566,7 +1566,7 @@ export const COURSES_DATA: Course[] = [
     id: 'math-tutoring',
     slug: 'math-tutoring',
     number: 10,
-    title: 'Math Tutoring (AI)',
+    title: 'Math Tutoring',
     category: 'math',
     categoryName: 'Les Privat Adaptif AI',
     badgeColor: 'border-blue-500 bg-blue-50 text-blue-600',
